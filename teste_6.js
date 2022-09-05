@@ -10,7 +10,7 @@ const { Client } = require('whatsapp-web.js');
 
 const client = new Client({
   puppeteer:{
-    headless:false,
+    headless:false, 
     ignoreDefaultArgs:['--disable-extensions','--no-sandbox','--disable-setuid-sandbox']
   }
 });
